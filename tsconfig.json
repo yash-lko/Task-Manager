@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",                         // or your desired target
+    "module": "commonjs",                    // or your desired module system
+    "jsx": "react-jsx",                      // use 'react-jsx' or 'react' depending on your React version
+    "strict": true,                          // enable strict type checking options
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*"  // Adjust this according to your source folder
+  ]
+}
